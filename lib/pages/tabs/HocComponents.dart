@@ -11,7 +11,7 @@ class _HocComponentsState extends State<HocComponents> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('hocComponents'),
+      child: Text('暂未开发'),
     );
   }
 }
