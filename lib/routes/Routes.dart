@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import '../pages/Tabs.dart';
+import '../demo-pages/ui-components-pages/bannerDemoPage.dart';
 
 // 配置路由
 final routes = {
   '/': (context) => TabsPage(),
+  '/BannerDemoPage': (context) => BannerDemoPage(),
 };
 
 // 实现namedRouter 传参

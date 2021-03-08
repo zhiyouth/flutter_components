@@ -16,6 +16,9 @@ class _UiComponentsState extends State<UiComponents> {
           ListTile(
             title: Text('Banner轮播图组件'),
             subtitle: Text('支持上下左右轮播'),
+            onTap: () {
+              Navigator.pushNamed(context, '/BannerDemoPage');
+            },
           ),
           ListTile(
             title: Text('Tab选项卡组件'),
